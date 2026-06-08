@@ -1,0 +1,29 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "SpendWise - AI 消费决策助手",
+    "mainElement": "EntryAbility",
+    "deviceTypes": ["phone"],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/EntryAbility.ets",
+        "description": "SpendWise 主入口",
+        "icon": "$media:icon",
+        "label": "SpendWise",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "#F5F7FA",
+        "exported": true,
+        "skills": [
+          {
+            "entities": ["entity.system.home"],
+            "actions": ["action.system.home"]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+*.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend (ArkTS)
+frontend/build/
+frontend/.hvigor/
+frontend/oh_modules/
+
+# Deploy scripts (contain server credentials)
+backend/deploy_hermes.py
+backend/upload_to_server.py
